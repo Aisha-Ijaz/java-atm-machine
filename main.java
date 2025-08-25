@@ -26,6 +26,7 @@ public class Main {
 
         if(!isAuthenticated){
             System.out.println("Account Blocked! Please visit to the nearest branch.");
+            return;
         }
 
         do{
